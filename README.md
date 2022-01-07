@@ -1,5 +1,7 @@
 # Pi Cloud - Docker
 
+## [Demo](https://picloud.ngrok.io/)
+
 Pi Cloud compiler dockerized container 
 
 ## Build an image using Dockerfile
@@ -16,6 +18,6 @@ sudo docker build -t phpcompiler
 sudo docker run -p 5001:80 phpcompiler
 ```
 
-Go to http://<IP>:5001
+Go to http://ip-address:5001
 
 Note : Login page is skipped for docker image
