@@ -19,7 +19,6 @@ $password=md5(mysql_real_escape_string($_POST["password"]));
 //else
 //{
 //	header('Location: index.php?login_attempt=1');
-//}
 
 mysql_close($con);
 ?>
